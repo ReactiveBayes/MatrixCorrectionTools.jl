@@ -6,11 +6,11 @@ DocMeta.setdocmeta!(MatrixCorrectionTools, :DocTestSetup, :(using MatrixCorrecti
 makedocs(;
     modules=[MatrixCorrectionTools],
     authors="Bagaev Dmitry <d.v.bagaev@tue.nl>",
-    repo="https://github.com/biaslab/MatrixCorrectionTools.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/reactivebayes/MatrixCorrectionTools.jl/blob/{commit}{path}#{line}",
     sitename="MatrixCorrectionTools.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://biaslab.github.io/MatrixCorrectionTools.jl",
+        canonical="https://reactivebayes.github.io/MatrixCorrectionTools.jl",
         edit_link="main",
         assets=String[]
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/biaslab/MatrixCorrectionTools.jl",
+    repo="github.com/reactivebayes/MatrixCorrectionTools.jl",
     devbranch="main"
 )
