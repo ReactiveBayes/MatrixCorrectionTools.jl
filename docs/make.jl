@@ -20,6 +20,7 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/reactivebayes/MatrixCorrectionTools.jl",
-    devbranch="main"
+    repo = "github.com/ReactiveBayes/MatrixCorrectionTools.jl",
+    devbranch = "main",
+    forcepush = true
 )
